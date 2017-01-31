@@ -151,7 +151,6 @@ end
 
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
 end
 
 # this is an optional gem, it provides a high performance replacement
