@@ -87,7 +87,7 @@ gem 'omniauth-oauth2', require: false
 
 gem 'omniauth-google-oauth2'
 gem 'oj'
-gem 'pg'
+#gem 'pg'
 gem 'pry-rails', require: false
 gem 'r2', '~> 0.2.5', require: false
 gem 'rake'
@@ -186,3 +186,5 @@ gem 'memory_profiler', require: false, platform: :mri
 gem 'rmmseg-cpp', require: false
 
 gem 'logster'
+
+gem 'rack-timeout'
