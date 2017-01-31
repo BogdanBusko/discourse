@@ -149,6 +149,11 @@ group :development do
   gem 'foreman', require: false
 end
 
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+
 # this is an optional gem, it provides a high performance replacement
 # to String#blank? a method that is called quite frequently in current
 # ActiveRecord, this may change in the future
