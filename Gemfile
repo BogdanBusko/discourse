@@ -87,7 +87,6 @@ gem 'omniauth-oauth2', require: false
 
 gem 'omniauth-google-oauth2'
 gem 'oj'
-#gem 'pg'
 gem 'pry-rails', require: false
 gem 'r2', '~> 0.2.5', require: false
 gem 'rake'
@@ -122,7 +121,7 @@ group :test do
   gem 'timecop'
 end
 
-group :test, :development do
+#group :test, :development do
   gem 'rspec'
   gem 'mock_redis'
   gem 'listen', '0.7.3', require: false
@@ -139,7 +138,7 @@ group :test, :development do
   gem 'spork-rails'
   gem 'pry-nav'
   gem 'byebug', require: ENV['RM_INFO'].nil?
-end
+#end
 
 group :development do
   gem 'bullet', require: !!ENV['BULLET']
